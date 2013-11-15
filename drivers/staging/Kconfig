@@ -119,7 +119,13 @@ source "drivers/staging/sep/Kconfig"
 
 source "drivers/staging/iio/Kconfig"
 
-source "drivers/staging/ramzswap/Kconfig"
+source "drivers/staging/snappy/Kconfig"
+
+source "drivers/staging/zram/Kconfig"
+
+source "drivers/staging/zcache/Kconfig"
+
+source "drivers/staging/qcache/Kconfig"
 
 source "drivers/staging/wlags49_h2/Kconfig"
 
@@ -150,8 +156,6 @@ source "drivers/staging/mrst-touchscreen/Kconfig"
 source "drivers/staging/gobi/Kconfig"
 
 source "drivers/staging/ath6kl/Kconfig"
-
-source "drivers/staging/zram/Kconfig"
 
 endif # !STAGING_EXCLUDE_BUILD
 endif # STAGING
